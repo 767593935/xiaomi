@@ -1,28 +1,21 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <TopHeader/>
+   <!--  <TempFooter/> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+//import Msite from "./components/msite/Msite"
+import TopHeader from "./components/topHeader/TopHeader"
+//import TempFooter from "./components/foot/TempFooter"
 export default {
-  name: 'app',
-  components: {
-    HelloWorld
+  name:'App',
+  components:{
+    TopHeader
+   /*  TempFooter */
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="stylus" rel="stylesheet/stylus">
 </style>
