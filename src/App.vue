@@ -1,28 +1,30 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="app">
+    <!--路由视图:显示路由组件的-->
+    <router-view />
+    <!--底部组件-->
+   <Category />
   </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// 引入底部组件
+import Category from './components/Category.vue'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-    HelloWorld
-  }
+    Category
+  },
+ 
+
+
+
 }
 </script>
+<style lang="stylus" rel="stylesheet/stylus">
+.app
+  width 100%
+  height 100%
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
