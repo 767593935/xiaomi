@@ -60,7 +60,6 @@ export default {
           commit(RECEIVE_USER, user)
         }
       }
-
     },
 
   },

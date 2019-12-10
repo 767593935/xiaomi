@@ -1,0 +1,643 @@
+{
+  "recommend": [
+    {
+      "name": "小米CC9e",
+      "desc": "前置3200万自拍 / 索尼4800万超广角三摄 / 4030mAh大电量 / 3D全曲面玻璃机身，浪漫满分的全新配色 / 6.088英寸三星 AMOLED水滴屏 /第七代屏幕指纹 / 首发骁龙665处理器 / 全新Mimoji萌拍 / 红外遥控功能",
+      "id": 0,
+      "pref": "「购机享分期6期免息，6GB+128GB立减100，到手价1299元，全版本购机赠手机保护壳，保护壳颜色可以二选一，加1元得小米云服务空间月卡50G」",
+      "category": "小米自营",
+      "supports": [
+        {
+          "description": "小米自营"
+        },
+        {
+          "description": "小米发货"
+        },
+        {
+          "description": "7天无理由退货"
+        },
+        {
+          "description": "运费说明"
+        },
+        {
+          "description": "30天价格保护"
+        }
+      ],
+      "price": "1299元",
+      "oldPrice": "1599元",
+      "imgs": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1562074229.67438352.jpg",
+        "https://img14.360buyimg.com/n1/s450x450_jfs/t1/56375/8/4655/624508/5d258c70Eb940ad56/268980d6b992705e.png",
+        "http://img3.imgtn.bdimg.com/it/u=1895152630,2627876103&fm=11&gp=0.jpg"
+      ]
+    },
+    {
+      "name": "Redmi Note 8 Pro",
+      "desc": "6400万旗舰级全场景四摄 / 前置2000万 AI美颜相机 / G90T专业游戏芯片，液冷散热 / 6.53英寸水滴全面屏 / 4500mAh大电量 / 标配18W快充 / 康宁大猩猩保护玻璃 / 多功能NFC / 红外遥控功能 / Game Turbo2.0游戏加速",
+      "pref": "",
+      "id": 1,
+      "category": "小米自营",
+      "supports": [
+        {
+          "description": "小米自营"
+        },
+        {
+          "description": "小米发货"
+        },
+        {
+          "description": "7天无理由退货"
+        },
+        {
+          "description": "运费说明"
+        },
+        {
+          "description": "30天价格保护"
+        }
+      ],
+      "price": "1399元",
+      "oldPrice": "1599元",
+      "imgs": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1567056652.076330.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1567056654.26824657.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1567056655.47578835.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1567056657.59335385.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1567056663.49088166.png"
+      ]
+    },
+    {
+      "name": "小米手环4",
+      "desc": "全新 AMOLED 大屏彩显，支持77种个性主题。拥有20天的超长续航，能用支付宝抬手支付。50米防水，支持游泳模式。还能看微信、看来电、测心率、测睡眠。戴上它，你的改变从今天开始。",
+      "pref": "「价同“11.11”，手环4NFC 订金10元抵30元，12月12日0点付尾款！到手价209元！」",
+      "id": 2,
+      "category": "小米自营",
+      "supports": [
+        {
+          "description": "小米自营"
+        },
+        {
+          "description": "小米发货"
+        },
+        {
+          "description": "7天无理由退货"
+        },
+        {
+          "description": "运费说明"
+        },
+        {
+          "description": "30天价格保护"
+        }
+      ],
+      "price": "169元",
+      "oldPrice": "179元",
+      "imgs": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1560238127.40319869.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1560238127.27742928.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1560238127.27742928.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1560238127.27717435.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1560238127.29931894.png"
+      ]
+    }
+  ],
+  "phone": [
+    {
+      "name": "小米CC9 Pro",
+      "id": 0,
+      "desc": "1亿像素主摄 / 全场景五摄像头 / 四闪光灯 / 3200万自拍 / 10 倍混合光学变焦，50倍数字变焦 / 5260mAh ⼤电量 / 标配 30W疾速快充 / ⼩米⾸款超薄屏下指纹 / 德国莱茵低蓝光认证 / 多功能NFC / 红外万能遥控 / 1216超线性扬声器",
+      "minDesc": "1亿像素 五摄四闪",
+      "pref": "「新品火爆开售中，分期享12期免息，限时赠一年碎屏保服务，限时赠价值470元的善诊体检卡，享1TB小米云空间1年使用权，抽奖最高赢手机」",
+      "category": "小米自营",
+      "supports": [
+        {
+          "description": "小米自营"
+        },
+        {
+          "description": "小米发货"
+        },
+        {
+          "description": "7天无理由退货"
+        },
+        {
+          "description": "运费说明"
+        },
+        {
+          "description": "30天价格保护"
+        }
+      ],
+      "price": "2799",
+      "imgs": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572932850.83044508.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572932860.35746052.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941504.16459524.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941511.81054715.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941516.70843387.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572941518.61512485.jpg"
+      ],
+      "phoneImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/07270cc09689eb9b13b29aa9f6bc41eb.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "小米9 Pro 5G",
+      "id": 1,
+      "desc": "5G双卡全网通超高速网络 / 骁龙855Plus旗舰处理器 / 40W有线闪充+30W无线闪充+10W无线反充，4000mAh长续航 / 4800万全焦段三摄 / 超振感横向线性马达 / VC液冷散热 / 高色准三星AMOLED屏幕 / 多功能NFC / 赠送小米云服务1TB云存储",
+      "minDesc": "5G双卡全网通，骁龙885Plus",
+      "category": "小米自营",
+      "pref": "",
+      "supports": [
+        {
+          "description": "小米自营"
+        },
+        {
+          "description": "小米发货"
+        },
+        {
+          "description": "7天无理由退货"
+        },
+        {
+          "description": "运费说明"
+        },
+        {
+          "description": "30天价格保护"
+        }
+      ],
+      "imgs": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1569242378.68478559.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1569242380.79473288.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1569242380.79473288.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1569242385.10554868.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1569242386.88721827.jpg"
+      ],
+      "price": "3699",
+      "phoneImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ca9b4f81af709935556bef9aa21a90e8.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "Redmi 8",
+      "id": 2,
+      "minDesc": "5000mAh超长续航",
+      "category": "小米自营",
+      "pref": "「 3GB+32GB闪降50元，到手价仅699元」",
+      "desc": "5000mAh大电量 / 最高可选4GB+64GB版本 / 支持18W快充 / Type-C充电接口 / 6.22\"水滴全面屏 / 指纹识别+AI人脸解锁 / 骁龙八核处理器 / 超大音量 / 1200万AI双摄 / 支持红外遥控 / 支持无线FM收音机",
+      "supports": [
+        {
+          "description": "小米自营"
+        },
+        {
+          "description": "小米发货"
+        },
+        {
+          "description": "7天无理由退货"
+        },
+        {
+          "description": "运费说明"
+        },
+        {
+          "description": "30天价格保护"
+        }
+      ],
+      "imgs": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1570878886.62973444.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1570878886.63237044.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1570878886.55486705.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1570878886.55486705.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1570878886.55626623.jpg"
+      ],
+      "price": "699",
+      "phoneImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d295c4fb500d163a7045dc715b47f808.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "Redmi 8A",
+      "id": 3,
+      "minDesc": "5000mAh超长续航",
+      "category": "小米自营",
+      "pref": "「4GB+64GB到手价仅699元」",
+      "desc": "5000mAh大电量 / 最高可选4GB+64GB版本 / 支持18W快充 / Type-C充电接口 / 6.22\"水滴全面屏 / AI人脸解锁 / 骁龙八核处理器 / 超大音量 / 支持无线FM收音机",
+      "imgs": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574763047.24037885.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574763049.66425763.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574763049.66425763.jpg"
+      ],
+      "supports": [
+        {
+          "description": "小米自营"
+        },
+        {
+          "description": "小米发货"
+        },
+        {
+          "description": "7天无理由退货"
+        },
+        {
+          "description": "运费说明"
+        },
+        {
+          "description": "30天价格保护"
+        }
+      ],
+      "price": "699",
+      "phoneImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c924c3f3436b6934495fd98f159ee3f7.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "Redmi Note 8 Pro",
+      "id": 4,
+      "minDesc": "6400万全场景四摄",
+      "category": "小米自营",
+      "pref": "",
+      "desc": "6400万旗舰级全场景四摄 / 前置2000万 AI美颜相机 / G90T专业游戏芯片，液冷散热 / 6.53英寸水滴全面屏 / 4500mAh大电量 / 标配18W快充 / 康宁大猩猩保护玻璃 / 多功能NFC / 红外遥控功能 / Game Turbo2.0游戏加速",
+      "imgs": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1567056652.076330.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1567056652.076330.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1567056652.076330.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1567056657.59335385.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1567056663.49088166.png"
+      ],
+      "supports": [
+        {
+          "description": "小米自营"
+        },
+        {
+          "description": "小米发货"
+        },
+        {
+          "description": "7天无理由退货"
+        },
+        {
+          "description": "运费说明"
+        },
+        {
+          "description": "30天价格保护"
+        }
+      ],
+      "price": "1299",
+      "oldPrice": "1399",
+      "phoneImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/6f2493e6c6fe8e2485c407e5d75e3651.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "Redmi Note 8",
+      "id": 5,
+      "minDesc": "千元4800万四摄",
+      "category": "小米自营",
+      "pref": "「6GB+128GB立省100，到手价1299元」",
+      "desc": "4800万全场景四摄 / 前置1300万美颜相机 / 骁龙665处理器 / 4000mAh超长续航 / 标配18W快充 / 超线性扬声器 / 90%高屏占比 / 康宁大猩猩保护玻璃 / 6.3英寸水滴全面屏",
+      "imgs": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1567422745.18398983.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1567422745.18398983.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1567422754.40113828.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1567422755.73363442.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1567422757.81944628.jpg"
+      ],
+      "supports": [
+        {
+          "description": "小米自营"
+        },
+        {
+          "description": "小米发货"
+        },
+        {
+          "description": "7天无理由退货"
+        },
+        {
+          "description": "运费说明"
+        },
+        {
+          "description": "30天价格保护"
+        }
+      ],
+      "price": "999",
+      "phoneImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4c87947d104ee5833913e4c520108f16.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "Redmi K20 Pro 尊享版",
+      "id": 6,
+      "minDesc": "骁龙855 Plus， 弹出全面屏",
+      "category": "小米自营",
+      "pref": "「 8GB+512GB到手价仅2399元。最高享6期免息，每期低至400元，购机赠手机高透贴膜」",
+      "desc": "高通骁龙855 Plus处理器 / 最高可选12GB+512GB大内存 / 索尼4800万超广角三摄 / 前置2000万升降式相机 / 6.39\"AMOLED极界全面屏 / 3D四曲面玻璃机身 / 4000mAh超长续航 / 标配27W充电器 / 8层石墨立体散热 / 第七代屏下指纹解锁 / 多功能NFC / 双频GPS导航",
+      "imgs": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1569557791.42599270.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1569558299.28432643.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1569558292.29775682.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1569558301.51242741.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1569558304.27718807.jpg"
+      ],
+      "supports": [
+        {
+          "description": "小米自营"
+        },
+        {
+          "description": "小米发货"
+        },
+        {
+          "description": "7天无理由退货"
+        },
+        {
+          "description": "运费说明"
+        },
+        {
+          "description": "30天价格保护"
+        }
+      ],
+      "price": "2399",
+      "oldPrice": "2699",
+      "phoneImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8737a33c78a94bc36afb860ab23b3939.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "Redmi 7",
+      "id": 7,
+      "minDesc": "4000mAh超长续航",
+      "category": "小米自营",
+      "pref": "",
+      "desc": "4000mAh大电量 / 骁龙632八核处理器 / 6.26\"水滴全面屏，德国莱茵 TÜV 认证护眼屏 / 18个月超长质保，康宁第五代大猩猩玻璃盖板 / 支持大字体、大音量模式，收音机、红外遥控功能 / 1200万AI双摄，1.25μm大像素相机",
+      "imgs": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1555075844.92065764.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1555075844.92065764.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1555075844.92065764.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1555075844.87728042.jpg"
+      ],
+      "supports": [
+        {
+          "description": "小米自营"
+        },
+        {
+          "description": "小米发货"
+        },
+        {
+          "description": "7天无理由退货"
+        },
+        {
+          "description": "运费说明"
+        },
+        {
+          "description": "30天价格保护"
+        }
+      ],
+      "price": "899",
+      "oldPrice": "999",
+      "phoneImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9aab8a7fa9005ef918c9aa2d5f17c806.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    }
+  ],
+  "household": [
+    {
+      "name": "米家互联网空调C1（一级能效）",
+      "id": 0,
+      "category": "小米自营",
+      "pref": "「12月12日超值特惠，到手价仅2199元，价同11.11」",
+      "desc": "1.5匹 / 自清洁 / 全直流变频节能省电 / 高效制冷热 / 静音设计 / 全屋互联 / 售后无忧 / 官网购买，免预约安装，签收后服务人员主动联系",
+      "imgs": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1554108362.70322107.jpg",
+        "https://i1.mifile.cn/a2/1566626085_4679676_s1512_2016wh.jpg",
+        "https://i1.mifile.cn/a2/1566199135_5144310_s2016_1508wh.jpg"
+      ],
+      "supports": [
+        {
+          "description": "小米自营"
+        },
+        {
+          "description": "小米发货"
+        },
+        {
+          "description": "7天无理由退货"
+        },
+        {
+          "description": "运费说明"
+        },
+        {
+          "description": "30天价格保护"
+        }
+      ],
+      "price": "2599",
+      "oldPrice": "2799",
+      "minDesc": "变频节能省电，自清洁",
+      "householdImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8ce424d6fe93dfb74733b5838140b7ee.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "米家空调",
+      "id": 1,
+      "category": "小米自营",
+      "pref": "「12月12日超值特惠，到手价仅1599元」",
+      "desc": "大1匹 / 快速制冷热 / 除湿功能 / 降噪静音 / 广角送风 / 高密度过滤网 / 典雅外观 / 售后无忧 / 官网购买，免预约安装，签收后服务人员主动联系",
+      "imgs": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2b911be4c2f156bb6e4cf367c6080045.jpg",
+        "https://i1.mifile.cn/a2/1565824721_3149823_s1134_2016wh.jpg",
+        "https://i1.mifile.cn/a2/1561302080_1891298_s567_1008wh.jpg"
+      ],
+      "supports": [
+        {
+          "description": "小米自营"
+        },
+        {
+          "description": "小米发货"
+        },
+        {
+          "description": "7天无理由退货"
+        },
+        {
+          "description": "运费说明"
+        },
+        {
+          "description": "30天价格保护"
+        }
+      ],
+      "price": "1699",
+      "oldPrice": "1799",
+      "minDesc": "出众静音，快速制冷热",
+      "householdImg": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2b911be4c2f156bb6e4cf367c6080045.jpg?thumb=1&w=250&h=250"
+    },
+    {
+      "name": "米家互联网洗烘一体机 Pro 10kg",
+      "id": 2,
+      "category": "小米自营",
+      "desc": "国标双A+级洗烘能力 / 22种洗烘模式 / 智能投放洗涤剂 / 支持小爱同学语音遥控 / 支持OTA在线智能升级 / 智能空气洗 / 除菌率达99.9%+",
+      "pref": "",
+      "imgs": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1560161251.21862332.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1560161250.9595050.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1560161250.95927056.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1560161250.95428091.jpg"
+      ],
+      "supports": [
+        {
+          "description": "小米自营"
+        },
+        {
+          "description": "小米发货"
+        },
+        {
+          "description": "7天无理由退货"
+        },
+        {
+          "description": "运费说明"
+        },
+        {
+          "description": "30天价格保护"
+        }
+      ],
+      "price": "2999",
+      "minDesc": "智能洗烘，省心省力",
+      "householdImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ec20453216dcd42f982cffe5fdbc3115.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "小米电视4A 32英寸",
+      "id": 3,
+      "category": "小米自营",
+      "pref": "",
+      "desc": "64位四核处理器 / 1GB+4GB大内存 / 高清液晶屏 / 第6代画质引擎 / 人工智能系统PatchWall / 轻至4kg",
+      "imgs": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1500287084.72131750.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1500287084.72131750.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1500287087.73618884.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1500287089.17653858.jpg"
+      ],
+      "supports": [
+        {
+          "description": "小米自营"
+        },
+        {
+          "description": "小米发货"
+        },
+        {
+          "description": "7天无理由退货"
+        },
+        {
+          "description": "运费说明"
+        },
+        {
+          "description": "30天价格保护"
+        }
+      ],
+      "price": "799",
+      "minDesc": "人工智能系统，高清液晶屏",
+      "householdImg": "https://i8.mifile.cn/v1/a1/ef617fac-7489-436d-b74e-c43582f09633!250x250.jpg"
+    },
+    {
+      "name": "Redmi全自动波轮洗衣机1A 8kg",
+      "id": 4,
+      "category": "小米自营",
+      "desc": "8kg大容量 / 10种洗涤模式 / 10挡水位调节 / 耐腐蚀金属机身 / 桶自洁、桶风干模式避免细菌滋生 / 空气阻尼减震 / 免运费及基础安装费",
+      "pref": "「12月12日超值特惠，到手价仅699元，价同11.11」",
+      "imgs": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1552868299.27348967.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1552868299.27348967.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1552868299.30794969.jpg"
+      ],
+      "supports": [
+        {
+          "description": "小米自营"
+        },
+        {
+          "description": "小米发货"
+        },
+        {
+          "description": "7天无理由退货"
+        },
+        {
+          "description": "运费说明"
+        },
+        {
+          "description": "30天价格保护"
+        }
+      ],
+      "price": "799",
+      "minDesc": "一键操作，父母都爱用",
+      "householdImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b8c63a2024528fe5410ebe669b7d2407.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "小米全面屏电视E55A",
+      "id": 5,
+      "category": "小米自营",
+      "desc": "全面屏设计 / 4K超高清+HDR / 纤薄机身 / 2GB+8GB大内存 / 64位四核处理器 / 内置小爱同学",
+      "pref": "「“12.12巅峰预售”，订金100抵400，到手价不高于1799元！年度低价再次来袭，错过后悔很久！」「12月12日0点起支付尾款，付尾款后陆续发货！」",
+      "imgs": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1562138486.16379871.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1562138486.16379871.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1562138486.16379871.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1562138486.13276223.jpg"
+      ],
+      "supports": [
+        {
+          "description": "小米自营"
+        },
+        {
+          "description": "小米发货"
+        },
+        {
+          "description": "7天无理由退货"
+        },
+        {
+          "description": "运费说明"
+        },
+        {
+          "description": "30天价格保护"
+        }
+      ],
+      "price": "2099",
+      "minDesc": "全面屏设计，人工智能语音",
+      "householdImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ef6b4e9b9151849b3b1fb1dbf069c6ed.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "15.6\" 四核i7 16G 独显 512G",
+      "id": 6,
+      "category": "小米自营",
+      "pref": "",
+      "desc": "四核i7处理器 / 16G大运存 / 512G高速固态硬盘 / 独立数字键盘 / 全面均衡的国民轻薄本",
+      "imgs": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1563271929.26091488.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1563271929.26713659.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1563271929.0995413.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1563271929.18494041.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1563271929.23224452.jpg"
+      ],
+      "supports": [
+        {
+          "description": "小米自营"
+        },
+        {
+          "description": "小米发货"
+        },
+        {
+          "description": "7天无理由退货"
+        },
+        {
+          "description": "运费说明"
+        },
+        {
+          "description": "30天价格保护"
+        }
+      ],
+      "price": "4899",
+      "minDesc": "全面均衡的国民轻薄本",
+      "householdImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cd2aa2dcad6440b469c22e27db9b6236.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "Air 13.3\" 2019款",
+      "id": 7,
+      "category": "小米自营",
+      "desc": "轻薄全金属机身 / MX250独立显卡 / 9.5小时超长续航 / FHD全高清屏幕 / 指纹解锁 / 兼顾办公娱乐与轻薄的高性能笔记本",
+      "pref": "",
+      "imgs": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559028664.48559849.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559028664.49177593.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559028664.38422657.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559028664.44079894.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559028664.48559849.png"
+      ],
+      "supports": [
+        {
+          "description": "小米自营"
+        },
+        {
+          "description": "小米发货"
+        },
+        {
+          "description": "7天无理由退货"
+        },
+        {
+          "description": "运费说明"
+        },
+        {
+          "description": "30天价格保护"
+        }
+      ],
+      "price": "4999",
+      "minDesc": "第八代四核处理器，显卡再升级",
+      "householdImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/74e573c4c0d89048392d14831cc507d5.jpg?thumb=1&w=125&h=125&f=webp&q=90"
+    }
+  ]
+}

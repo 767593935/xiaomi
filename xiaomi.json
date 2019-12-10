@@ -1,0 +1,107 @@
+{
+  "phone": [
+    {
+      "name": "小米CC9 Pro",
+      "minDesc": "1亿像素 五摄四闪",
+      "price": "2799",
+      "phoneImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/07270cc09689eb9b13b29aa9f6bc41eb.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "小米9 Pro 5G",
+      "minDesc": "5G双卡全网通，骁龙885Plus",
+      "price": "3699",
+      "phoneImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ca9b4f81af709935556bef9aa21a90e8.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "Redmi 8",
+      "minDesc": "5000mAh超长续航",
+      "price": "699",
+      "phoneImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d295c4fb500d163a7045dc715b47f808.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "Redmi 8A",
+      "minDesc": "5000mAh超长续航",
+      "price": "699",
+      "phoneImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c924c3f3436b6934495fd98f159ee3f7.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "Redmi Note 8 Pro",
+      "minDesc": "6400万全场景四摄",
+      "price": "1299",
+      "oldPrice": "1399",
+      "phoneImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/6f2493e6c6fe8e2485c407e5d75e3651.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "Redmi Note 8",
+      "minDesc": "千元4800万四摄",
+      "price": "999",
+      "phoneImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4c87947d104ee5833913e4c520108f16.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "Redmi K20 Pro 尊享版",
+      "minDesc": "骁龙855 Plus， 弹出全面屏",
+      "price": "2399",
+      "oldPrice": "2699",
+      "phoneImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8737a33c78a94bc36afb860ab23b3939.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "Redmi 7",
+      "minDesc": "4000mAh超长续航",
+      "price": "899",
+      "oldPrice": "999",
+      "phoneImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9aab8a7fa9005ef918c9aa2d5f17c806.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    }
+  ],
+  "household": [
+    {
+      "name": "米家互联网空调C1（一级能效）",
+      "price": "2599",
+      "oldPrice": "2799",
+      "minDesc": "变频节能省电，自清洁",
+      "householdImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8ce424d6fe93dfb74733b5838140b7ee.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "米家空调",
+      "price": "1699",
+      "oldPrice": "1799",
+      "minDesc": "出众静音，快速制冷热",
+      "householdImg": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2b911be4c2f156bb6e4cf367c6080045.jpg?thumb=1&w=250&h=250"
+    },
+    {
+      "name": "米家互联网洗烘一体机 Pro 10kg",
+      "price": "2999",
+      "minDesc": "智能洗烘，省心省力",
+      "householdImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ec20453216dcd42f982cffe5fdbc3115.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "小米电视4A 32英寸",
+      "price": "799",
+      "minDesc": "人工智能系统，高清液晶屏",
+      "householdImg": "https://i8.mifile.cn/v1/a1/ef617fac-7489-436d-b74e-c43582f09633!250x250.jpg"
+    },
+    {
+      "name": "Redmi全自动波轮洗衣机1A 8kg",
+      "price": "799",
+      "minDesc": "一键操作，父母都爱用",
+      "householdImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b8c63a2024528fe5410ebe669b7d2407.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "小米全面屏电视E55A",
+      "price": "2099",
+      "minDesc": "全面屏设计，人工智能语音",
+      "householdImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ef6b4e9b9151849b3b1fb1dbf069c6ed.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "15.6\" 四核i7 16G 独显 512G",
+      "price": "4899",
+      "minDesc": "全面均衡的国民轻薄本",
+      "householdImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cd2aa2dcad6440b469c22e27db9b6236.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+    },
+    {
+      "name": "Air 13.3\" 2019款",
+      "price": "4999",
+      "minDesc": "第八代四核处理器，显卡再升级",
+      "householdImg": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/74e573c4c0d89048392d14831cc507d5.jpg?thumb=1&w=125&h=125&f=webp&q=90"
+    }
+  ]
+}
