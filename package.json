@@ -13,6 +13,9 @@
     "better-scroll": "^1.15.2",
     "core-js": "^3.4.8",
     "element-ui": "^2.13.0",
+    "jquery": "^3.4.1",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
     "swiper": "^5.2.1",
@@ -43,7 +46,9 @@
       "no-unused-vars": "off",
       "no-console": "off",
       "Unknown word": "off",
-      "vue/no-side-effects-in-computed-properties": "off"
+      "vue/no-side-effects-in-computed-properties": "off",
+      "no-constant-condition": "off",
+      "no-cond-assign": "off"
     },
     "parserOptions": {
       "parser": "babel-eslint"

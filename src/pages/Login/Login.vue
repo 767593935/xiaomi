@@ -11,12 +11,12 @@
         <div class="login_form">
           <div class="login_header_title">
             <a href="javascript:;"
-               :class="{on:loginWay}"
-               @click="loginWay=true">短信登录</a>
+               :class="{on:!loginWay}"
+               @click="loginWay=false">账号登录</a>
             <span class="shu">|</span>
             <a href="javascript:;"
-               :class="{on:!loginWay}"
-               @click="loginWay=false">密码登录</a>
+               :class="{on:loginWay}"
+               @click="loginWay=true">短信登录</a>
           </div>
           <div class="login_header_center">
             <el-form :model="ruleForm"
@@ -95,12 +95,13 @@
   </el-container>
 </template>
 <script>
-import { reqSendCode, reqSmsLogin, reqPwdLogin } from '../../api'
+import { reqSendCode, reqSmsLogin, reqPwdLogin, reqAutoLogin } from '../../api'
+import { async } from 'q'
 export default {
   name: 'Login',
   data () {
     return {
-      loginWay: true, // 默认显示
+      loginWay: false, // 默认显示
       isPwdShow: false,// 是否显示密码
       computedTime: 0,// 用来倒计时的
       ruleForm: { // 表单验证
@@ -114,7 +115,7 @@ export default {
       rules: {
         name: [
           { required: true, message: '请输入用户名', trigger: 'blur' },
-          { min: 3, max: 10, message: '长度在 3 到 10 个字符', trigger: 'blur' }
+          { min: 3, max: 11, message: '长度在 3 到 10 个字符', trigger: 'blur' }
         ],
         phone: [
           { required: true, message: '请输入手机号', trigger: 'blur' },
@@ -133,6 +134,13 @@ export default {
         ]
 
       }
+    }
+  },
+  async mounted () {
+    const result = await reqAutoLogin()
+    if (result.code === 0) {
+      console.log(this)
+      this.$router.replace('/')
     }
   },
   computed: {
@@ -193,7 +201,7 @@ export default {
           // 调用手机登录的接口
           console.log(code)
           result = await reqSmsLogin(phone, code)
-          console.log(result)
+          // console.log(result)
           this.code = '' // 清掉验证码
         } else {
           //  调用用户名/密码的接口
@@ -212,7 +220,7 @@ export default {
           // 保存当前的用户信息
           this.$store.dispatch('saveUser', user)
           // 跳转页面
-          // this.$router.replace('/') // 我的 界面
+          this.$router.replace('/') // 我的 界面
           this.$message({ message: '登录成功', type: 'success' })
         } else {
           this.$message('登录失败')
