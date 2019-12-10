@@ -4,7 +4,6 @@ import axios from 'axios'
 import qs from 'qs'
 // 引入store
 import store from '../store'
-// import { Toast, MessageBox } from 'mint-ui'
 // 引入router
 import router from '../router'
 // 添加请求拦截器
@@ -58,7 +57,7 @@ axios.interceptors.response.use(response => {
       // 重置token
       store.dispatch('resetLogin')
       // 跳转到登录界面
-      router.replace('/login')
+      router.replace('/login_pwd')
     } else if (status === 404) {
       this.$message('没有资源')
     } else {
