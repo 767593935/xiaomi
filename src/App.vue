@@ -1,28 +1,38 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+     <!-- <Register/> -->
+     <RegisterSend/>
+     <!-- <router-link to="/category">点击跳转</router-link>
+     <router-view></router-view> -->
   </div>
+  
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import axios from "axios"
+// import Register from "./components/Register"
+import RegisterSend from "./components/RegisterSend"
+import {reqFirstView} from "./api/index"
 
 export default {
-  name: 'app',
-  components: {
-    HelloWorld
+  data(){
+    return {
+      imgUrl:""
+    }
+  },
+  components:{
+    // Register,
+    RegisterSend
+  },
+  async mounted(){
+    /* const result=await reqFirstView()
+    console.log(result) */
+    axios.get(`/api/shops`)
+    .then((res)=>{
+      console.log(res)
+    })
   }
 }
 </script>
+<style lang="stylus">
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
