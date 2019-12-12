@@ -1,97 +1,88 @@
 <template>
-  <div class="buyContainer">
+<div>
+  <TempHeader/>
+  <div class="buyContainer" v-if="goodList">
     <div class="buy_header">
       <div class="good_left">
-        <i class="iconfont icon-true"></i>
+        <img
+          src="../components/images/success.png"
+          alt
+        />
         <div class="good-success">
-          <p class="addCar">已成功加入购物车</p>
-          <p class="addDes">小米CC9 Pro 8GB+256GB 魔法绿境</p>
+          <p class="addCar">已成功加入购物车!</p>
+          <p class="addDes">{{commodity.name}}</p>
         </div>
       </div>
       <div class="good_right">
-        <a class="back" href="###">返回上一级</a>
-        <a class="cart on" href="###">去购物车结算</a>
+        <el-button
+          type="primary"
+          class="back"
+          @click="$router.back()"
+        >
+          返回上一级
+        </el-button>
+        <el-button
+          class="cart"
+          type="success"
+          @click="$router.push('/paylogin')"
+        >
+          去购物车
+        </el-button>
       </div>
     </div>
     <h2 class="title">买购物车中的商品的人还买了</h2>
     <div class="more">
       <ul class="wraper">
-        <li class="des_item">
+        <li
+          class="des_item"
+          v-for="(item,index) in goodList"
+          :key="index"
+        >
           <a href="###">
-            <img src="./images/01.webp" alt />
-            <p class="des">变频节能省电</p>
-            <p class="price">2799元</p>
-          </a>
-        </li>
-         <li class="des_item">
-          <a href="###">
-            <img src="./images/01.webp" alt />
-            <p class="des">变频节能省电</p>
-            <p class="price">2799元</p>
-          </a>
-        </li>
-         <li class="des_item">
-          <a href="###">
-            <img src="./images/01.webp" alt />
-            <p class="des">变频节能省电</p>
-            <p class="price">2799元</p>
-          </a>
-        </li>
-         <li class="des_item">
-          <a href="###">
-            <img src="./images/01.webp" alt />
-            <p class="des">变频节能省电</p>
-            <p class="price">2799元</p>
-          </a>
-        </li>
-         <li class="des_item">
-          <a href="###">
-            <img src="./images/01.webp" alt />
-            <p class="des">变频节能省电</p>
-            <p class="price">2799元</p>
-          </a>
-        </li>
-         <li class="des_item">
-          <a href="###">
-            <img src="./images/01.webp" alt />
-            <p class="des">变频节能省电</p>
-            <p class="price">2799元</p>
-          </a>
-        </li>
-          <li class="des_item">
-          <a href="###">
-            <img src="./images/01.webp" alt />
-            <p class="des">变频节能省电</p>
-            <p class="price">2799元</p>
-          </a>
-        </li>
-          <li class="des_item">
-          <a href="###">
-            <img src="./images/01.webp" alt />
-            <p class="des">变频节能省电</p>
-            <p class="price">2799元</p>
-          </a>
-        </li>
-          <li class="des_item">
-          <a href="###">
-            <img src="./images/01.webp" alt />
-            <p class="des">变频节能省电</p>
-            <p class="price">2799元</p>
-          </a>
-        </li>
-          <li class="des_item">
-          <a href="###">
-            <img src="./images/01.webp" alt />
-            <p class="des">变频节能省电</p>
-            <p class="price">2799元</p>
+            <img
+              :src="item.image"
+              alt
+            />
+            <p class="des">{{item.title}}</p>
+            <p class="price">{{item.price}}</p>
           </a>
         </li>
       </ul>
     </div>
   </div>
+  <TempFooter/>
+  </div>
 </template>
 <script>
-export default {}
+import { mapState } from "vuex"
+import { reqSearch } from "../api"
+import Swiper from "swiper"
+import "swiper/css/swiper.css"
+export default {
+  name: "CartControl",
+  data(){
+    return {
+      goodList:[]
+    }
+  },
+
+  async mounted() {
+    const result = await reqSearch(" ");
+    const newResult=[]
+    if (result.code === 0) {
+      for (var i = 0; i < 10; i++) {
+        const start = Math.ceil(Math.random() * 76);
+        newResult.push(result.datalist[start]);
+      }
+      this.goodList=newResult
+    }
+  },
+  computed:{
+    ...mapState({
+      commodity: state => state.shop.commodity
+    })
+  }
+};
 </script>
 <style lang="stylus" rel="stylesheet/stylus">
 .buyContainer
@@ -109,7 +100,7 @@ export default {}
     .good_left
       height 64px
       display flex
-      text-align center
+      // text-align center
       .iconfont
         font-size 64px
         width 64px
@@ -124,7 +115,7 @@ export default {}
           color #424242
           margin-bottom 15px
         .addDes
-          font-size 14px
+          font-size 12px
           color #757575
     .good_right
       height 64px
@@ -132,25 +123,17 @@ export default {}
       text-align center
       padding-top 20px
       .back
-        color #757575
-        font-size 14px
-        width 182px
+        display inline-block
+        width 180px
         height 40px
-        border 1px solid #3c3c3c
-        text-align center
-        line-height 40px
-        margin-right 20px
         border-radius 10px
+        margin-right 10px
       .cart
-        color #757575
-        font-size 14px
-        width 182px
+        display inline-block
+        width 180px
         height 40px
-        border 1px solid #3c3c3c
-        text-align center
-        line-height 40px
-        margin-right 20px
         border-radius 10px
+        margin-right 10px
       .on
         color #757575
         font-size 14px
@@ -170,7 +153,7 @@ export default {}
     text-align center
     margin 0 0 20px
   .more
-    padding 10px 
+    padding 10px
     width 1226px
     height 614px
     .wraper
@@ -178,12 +161,13 @@ export default {}
       display flex
       flex-wrap wrap
       .des_item
-        width 234px
+        width 18%
         height 248px
         background-color #fff
         display flex
         align-items center
         justify-content space-around
+        margin 10px
         img
           width 140px
           height 140px

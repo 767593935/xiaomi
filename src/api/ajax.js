@@ -5,7 +5,8 @@ import qs from 'qs'
 // 引入store
 import store from '../store'
 // 引入router
-// import router from '../router'
+import router from '../router'
+import { Message } from 'element-ui';
 // 添加请求拦截器
 axios.interceptors.request.use(config => {
   const { method, data } = config
@@ -33,7 +34,7 @@ axios.interceptors.request.use(config => {
 // 添加响应拦截器
 axios.interceptors.response.use(response => {
   return response.data
-}, /* error => {
+}, error => {
   // 判断当前的错误信息是请求的还是响应
   if (!error.response) {
     // 请求的错误
@@ -41,7 +42,8 @@ axios.interceptors.response.use(response => {
       // 跳转到/login登录界面---先判断是不是login界面---currentRoute当前的路由组件
       if (router.currentRoute.path !== '/login') {
         // 提示错误信息
-        Toast(error.message)
+        // Toast(error.message)
+        Message(error.message)
         router.replace('/login')
       }
 
@@ -54,7 +56,8 @@ axios.interceptors.response.use(response => {
       // token过期了
       if (router.currentRoute.path !== '/login') {
         // 提示
-        Toast(error.response.data.message)
+        Message(error.response.data.message)
+        // Toast(error.response.data.message)
         // 重置token
         store.dispatch('resetLogin')
         // 跳转到登录界面
@@ -62,14 +65,18 @@ axios.interceptors.response.use(response => {
       }
 
     } else if (status === 404) {
-      Toast('没有资源')
+      // Toast('没有资源')
+      Message('没有资源')
+      
     } else {
-      Toast('请求错误:' + error.message)
+      Message('没有资源:' +error.message)
+
+      // Toast('请求错误:' + error.message)
     }
   }
 
   // 中断当前的错误消息,继续的响应
   return new Promise(() => { })
-} */)
+})
 // 暴露axios
 export default axios

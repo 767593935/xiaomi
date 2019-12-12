@@ -1,0 +1,23 @@
+// 包含了多个mutation的type
+export const RECEIVE_SHOPS = 'receive_shops'
+export const RECEIVE_USER = 'receive_user'
+export const RECEIVE_TOKEN = 'receive_token'
+export const RESET_USER = 'reset_user'
+export const RESET_TOKEN = 'reset_token'
+export const RECEIVE_GOODS = 'receive_goods'
+export const RECEIVE_RATINGS = 'receive_ratings'
+export const RECEIVE_INFO = 'receive_info'
+export const ADD_FOOD_COUNT = 'add_food_count'
+export const REDUCE_FOOD_COUNT = 'reduce_food_count'
+export const RECEIVE_PASSWORD = 'receive_password'
+export const RECEIVE_HOUSEHOLD = "receive_household"
+export const RECEIVE_PHONE = "reveive_phone"
+export const RECEIVE_RECOMMEND = "receive_recommend"
+export const RECEIVE_IDENTIFY = "receive_identify"
+export const RECEIVE_ID = "receive_id"
+export const SAVE_COMMODITY = "save_commodity"
+export const ADD_GOOD = "add_good"
+export const REMOVE_GOOD = "remove_good"
+export const UPDATE_ISCHECKED = "update_ischecked"
+export const RECEIVE_SEARCHLIST = 'receive_searchList'
+export const REDUCE_GOOD = "reduce_good"

@@ -6,7 +6,6 @@
     <h2 class="title">主题</h2>
     <div class="more">
       <ul class="wraper">
-        <transition name="slide">
           <li class="des_item" key="box1">
             <a href="###">
               <img src="./images/01.webp" alt />
@@ -18,7 +17,6 @@
               </p>
             </a>
           </li>
-        </transition>
         <li class="des_item">
           <a href="###">
             <img src="./images/01.webp" alt />
@@ -124,21 +122,18 @@
 </template>
 <script>
 export default {
-name:'Content'
-
-
-
+  name: 'Content'
 }
 </script>
 <style lang="stylus" rel="stylesheet/stylus">
 .contentContainer
   width 1226px
-  height 1200px
   margin 0 auto
   background-color #f5f5f5
   .banner
     width 100%
     height 120px
+   
     img
       width 100%
       height 120px
@@ -159,18 +154,19 @@ name:'Content'
       flex-wrap wrap
       .des_item
         background-color #fff
-        width 20%
-        height 300px
+        width 18%
+        height 280px
         display flex
         flex-direction column
         align-items center
         margin-bottom 14px
         z-index 40
-        &.slide-enter-active, &.slide-leave-active
-          transition all 3s linear
-        &.slide-enter, &.slide-leave-to
-          transform scale(1.5)
+        margin 1px
+        margin-bottom 10px
+        &:hover 
+          transform translateX(6px) scale(1.1)
         img
+          padding-top 5px
           width 160px
           height 160px
           vertical-align middle
